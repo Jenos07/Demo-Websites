@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrapcolor Website</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        crossorigin="anonymous"
+    />
+    <style>
+        .color-swatch {
+            min-height: 120px;
+            border-radius: 0.75rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            text-align: center;
+        }
+        .color-label {
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+        }
+        .text-dark-bg {
+            background: #f8f9fa;
+            color: #212529;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <header class="py-4 mb-4 border-bottom bg-white">
+        <div class="container">
+            <h1 class="display-6 mb-1">Bootstrapcolor Website</h1>
+            <p class="text-muted mb-0">
+                A simple showcase of Bootstrap color utility classes and palette swatches.
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="mb-5">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded shadow-sm">
+                        <h2 class="h5">Background colors</h2>
+                        <p class="text-muted">Use Bootstrap utility classes for colored backgrounds.</p>
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <div class="color-swatch bg-primary">primary</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-secondary">secondary</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-success">success</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-danger">danger</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-warning text-dark">warning</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-info text-dark">info</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-light text-dark">light</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="color-swatch bg-dark">dark</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded shadow-sm">
+                        <h2 class="h5">Text colors</h2>
+                        <p class="text-muted">Utility classes for text color styling.</p>
+                        <div class="list-group">
+                            <div class="list-group-item text-primary">.text-primary</div>
+                            <div class="list-group-item text-secondary">.text-secondary</div>
+                            <div class="list-group-item text-success">.text-success</div>
+                            <div class="list-group-item text-danger">.text-danger</div>
+                            <div class="list-group-item text-warning">.text-warning</div>
+                            <div class="list-group-item text-info">.text-info</div>
+                            <div class="list-group-item text-light bg-dark">.text-light</div>
+                            <div class="list-group-item text-dark">.text-dark</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded shadow-sm">
+                        <h2 class="h5">Border colors</h2>
+                        <p class="text-muted">Border utility classes demonstrating color variants.</p>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="p-3 border border-primary rounded">.border-primary</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border border-secondary rounded">.border-secondary</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border border-success rounded">.border-success</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border border-danger rounded">.border-danger</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border border-warning rounded">.border-warning</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border border-info rounded">.border-info</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <div class="p-4 bg-white rounded shadow-sm">
+                <h2 class="h5">Palette cards</h2>
+                <div class="row g-3">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-primary">primary</div>
+                        <div class="color-label">#0d6efd</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-secondary">secondary</div>
+                        <div class="color-label">#6c757d</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-success">success</div>
+                        <div class="color-label">#198754</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-danger">danger</div>
+                        <div class="color-label">#dc3545</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-warning text-dark">warning</div>
+                        <div class="color-label">#ffc107</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-info text-dark">info</div>
+                        <div class="color-label">#0dcaf0</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-light text-dark">light</div>
+                        <div class="color-label">#f8f9fa</div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="color-swatch bg-dark">dark</div>
+                        <div class="color-label">#212529</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
