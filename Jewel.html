@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVM Jewellery</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f8f8;
+        }
+
+        .logo {
+            width: 120px;
+            height: 160px;
+            border-radius: 50%;
+            background: linear-gradient(#ff99cc, #cc0066);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            margin: 20px auto;
+        }
+
+        .header-text {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .description {
+            text-align: center;
+            padding: 10px 50px;
+            font-size: 14px;
+        }
+
+        .form-section {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .gold-box {
+            background-color: goldenrod;
+            color: white;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .gold-box.light {
+            background-color: #e6d690;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <h3 class="header-text">WELCOME TO AVM JEWELLERY</h3>
+
+    <!-- Logo -->
+    <div class="logo">AM</div>
+
+    <!-- Description -->
+    <p class="description">
+        <b>AVM JEWELLERY</b> is the best jewellery shop in town. We offer a wide range of 
+        exquisite jewellery crafted with precision and care. Visit us today!
+    </p>
+
+    <!-- Form -->
+    <div class="form-section">
+        <h5 class="text-center">CUSTOMER DETAILS</h5>
+
+        <form>
+            <div class="mb-2">
+                <label>Name</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-2">
+                <label>Gold Weight</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-2">
+                <label>Type of Gold</label>
+                <select class="form-control">
+                    <option>18 Carat</option>
+                    <option>22 Carat</option>
+                    <option>24 Carat</option>
+                </select>
+            </div>
+
+            <div class="mb-2">
+                <label>Address</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-2">
+                <label>Mobile Number</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <button class="btn btn-dark w-100 mt-2">Submit</button>
+        </form>
+    </div>
+
+    <!-- Gold Info -->
+    <div class="container mt-4">
+        <div class="gold-box">
+            <h6>18 Carat</h6>
+            <p>18 carat gold contains 75% pure gold and 25% other metals.</p>
+        </div>
+
+        <div class="gold-box light">
+            <h6>22 Carat</h6>
+            <p>22 carat gold contains 91.6% pure gold and 8.4% other metals.</p>
+        </div>
+
+        <div class="gold-box">
+            <h6>24 Carat</h6>
+            <p>24 carat gold is 99.9% pure gold with bright yellow color.</p>
+        </div>
+    </div>
+
+</body>
+</html>
